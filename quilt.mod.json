@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "com.modrinth",
+    "id": "no_more_messages",
+    "version": "1.0.0",
+    "metadata": {
+      "name": "no-more-messages",
+      "description": "A datapack that disables all chat messages except for commands",
+      "contact": {
+        "homepage": "https://modrinth.com/datapack/no-more-messages",
+        "sources": "https://github.com/trevorwinser/no-more-messages",
+        "issues": "https://github.com/trevorwinser/no-more-messages/issues"
+      }
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "depends": [
+      {
+        "id": "quilt_resource_loader",
+        "versions": "*",
+        "unless": "fabric-resource-loader-v0"
+      }
+    ]
+  }
+}

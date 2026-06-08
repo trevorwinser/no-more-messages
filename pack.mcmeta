@@ -1,10 +1,6 @@
 {
   "pack": {
-    "description": "A datapack that disables all chat messages except for commands",
-    "min_format": [
-      101,
-      1
-    ],
-    "max_format": 101
+    "pack_format": 13,
+    "description": "A datapack that disables all chat messages except for commands"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "no_more_messages",
+  "version": "1.0.0",
+  "name": "no-more-messages",
+  "description": "A datapack that disables all chat messages except for commands",
+  "license": "LicenseRef-Datapack",
+  "environment": "*",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  },
+  "contact": {
+    "homepage": "https://modrinth.com/datapack/no-more-messages",
+    "sources": "https://github.com/trevorwinser/no-more-messages",
+    "issues": "https://github.com/trevorwinser/no-more-messages/issues"
+  }
+}
